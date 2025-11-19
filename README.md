@@ -1,4 +1,4 @@
-<img width="940" height="483" alt="image" src="https://github.com/user-attachments/assets/1269f97f-3c8a-4ae1-b3cd-72641acb9421" />Name - Nilay Kumar
+Name - Nilay Kumar
 Roll - 24293916051
 CSE-A
 
