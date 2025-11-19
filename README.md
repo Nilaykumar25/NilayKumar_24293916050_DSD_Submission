@@ -1,10 +1,8 @@
-Name - Nilay Kumar
+<img width="940" height="483" alt="image" src="https://github.com/user-attachments/assets/1269f97f-3c8a-4ae1-b3cd-72641acb9421" />Name - Nilay Kumar
 Roll - 24293916051
 CSE-A
 
 # Digital System Design – Verilog Experiments
-
-Below are all experiments (1–12) with **proper formatting**, **headings**, **source code blocks**, and **testbench blocks**, ready for GitHub README.md.
 
 ---
 
@@ -12,7 +10,8 @@ Below are all experiments (1–12) with **proper formatting**, **headings**, **s
 
 ### **Source Code:**
 
-```verilog
+```text
+
 `timescale 1ns / 1ps
 module BasicGates(
     input a, b,
@@ -30,7 +29,7 @@ endmodule
 
 ### **TestBench:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module BasicGates_tb();
 reg a, b;
@@ -54,14 +53,15 @@ endmodule
 
 #### **Waveform:**
 
-(Insert waveform here)
+<img width="940" height="483" alt="image" src="https://github.com/user-attachments/assets/22322f87-8eb0-4019-b2bc-64c5a49de0c0" />
+
 ---
 
 ## 2) Boolean Expression
 
 ### **Source Code:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module BooleanExpression(
     input a,b,c,
@@ -73,7 +73,7 @@ endmodule
 
 ### **TestBench:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module BooleanExpression_tb();
 reg a,b,c;
@@ -94,6 +94,13 @@ initial begin
 end
 endmodule
 ```
+#### **Schematic Diagram:**
+
+<img width="940" height="411" alt="image" src="https://github.com/user-attachments/assets/711989c6-b304-4d28-825b-855091620c87" />
+
+#### **Waveform:**
+
+<img width="940" height="625" alt="image" src="https://github.com/user-attachments/assets/c6677009-3c5b-4c28-8183-d66914a5faaf" />
 
 ---
 
@@ -101,7 +108,7 @@ endmodule
 
 ### **Source Code:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module Mux4x1(
     input I0,I1,I2,I3,S0,S1,
@@ -113,7 +120,7 @@ endmodule
 
 ### **TestBench:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module Mux4x1_tb();
 reg I0, I1, I2, I3, S0, S1;
@@ -131,6 +138,13 @@ $finish;
 end
 endmodule
 ```
+#### **Schematic Diagram:**
+
+<img width="940" height="430" alt="image" src="https://github.com/user-attachments/assets/5d341b16-7fea-4346-9ff0-19a0e93acb41" />
+
+#### **Waveform:**
+
+<img width="940" height="645" alt="image" src="https://github.com/user-attachments/assets/ebc538ad-176f-4e40-881e-279c8c0c5b49" />
 
 ---
 
@@ -138,7 +152,7 @@ endmodule
 
 ### **Source Code:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module mux_8x1(
     input I0,I1,I2,I3,I4,I5,I6,I7,S0,S1,S2,
@@ -157,7 +171,7 @@ endmodule
 
 ### **TestBench:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module Mux_8x1_tb();
 reg I0,I1,I2,I3,I4,I5,I6,I7;
@@ -182,6 +196,14 @@ $finish;
 end
 endmodule
 ```
+#### **Schematic Diagram:**
+
+<img width="940" height="463" alt="image" src="https://github.com/user-attachments/assets/7087dc61-355e-4dd8-9e5d-ff828c1e5061" />
+
+
+#### **Waveform:**
+
+<img width="940" height="483" alt="image" src="https://github.com/user-attachments/assets/d0c2f94b-3edf-412c-8a69-6096674a1eb3" />
 
 ---
 
@@ -189,7 +211,7 @@ endmodule
 
 ### **Source Code:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module PriorityEncoder(
     input D0,D1,D2,D3,
@@ -203,7 +225,7 @@ endmodule
 
 ### **TestBench:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module PriorityEncoder_tb();
 reg D0,D1,D2,D3;
@@ -225,6 +247,13 @@ $finish;
 end
 endmodule
 ```
+#### **Schematic Diagram:**
+
+<img width="940" height="500" alt="image" src="https://github.com/user-attachments/assets/27f2a975-cce0-445e-9172-869c709b1175" />
+
+#### **Waveform:**
+
+<img width="940" height="488" alt="image" src="https://github.com/user-attachments/assets/6623b06e-cde4-43a9-876e-b512b9761ce6" />
 
 ---
 
@@ -232,7 +261,7 @@ endmodule
 
 ### **Source Code:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module PriorityDecoder(
    input A,B,
@@ -247,7 +276,7 @@ endmodule
 
 ### **TestBench:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module PriorityDecoder_tb();
 reg A,B;
@@ -264,6 +293,13 @@ $finish;
 end
 endmodule
 ```
+#### **Schematic Diagram:**
+
+<img width="940" height="435" alt="image" src="https://github.com/user-attachments/assets/91383eb2-d329-47c6-9185-93d19901bffd" />
+
+#### **Waveform:**
+
+<img width="940" height="507" alt="image" src="https://github.com/user-attachments/assets/5ed81c88-7dce-4bd9-a03f-062ab4415654" />
 
 ---
 
@@ -271,7 +307,7 @@ endmodule
 
 ### **Source Code:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module Half_Adder(
     input A,B,
@@ -284,7 +320,7 @@ endmodule
 
 ### **TestBench:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module Half_Adder_tb();
 reg A,B;
@@ -301,6 +337,13 @@ $finish;
 end
 endmodule
 ```
+#### **Schematic Diagram:**
+
+<img width="940" height="493" alt="image" src="https://github.com/user-attachments/assets/9df471de-c0cb-46db-9e3f-146d9dc3cf35" />
+
+#### **Waveform:**
+
+<img width="940" height="484" alt="image" src="https://github.com/user-attachments/assets/a7a19ed3-6e24-4e20-ac9a-6616b2a936f4" />
 
 ---
 
@@ -308,7 +351,7 @@ endmodule
 
 ### **Source Code:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module FullAdder(
     input A,B,Cin,
@@ -321,7 +364,7 @@ endmodule
 
 ### **TestBench:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module FullAdder_tb();
 reg A,B,Cin;
@@ -342,6 +385,13 @@ $finish;
 end
 endmodule
 ```
+#### **Schematic Diagram:**
+
+<img width="940" height="512" alt="image" src="https://github.com/user-attachments/assets/b324f7ec-f9a2-4f6c-8d09-ab8a49dced5b" />
+
+#### **Waveform:**
+
+<img width="940" height="501" alt="image" src="https://github.com/user-attachments/assets/2e2a9e1f-2d6f-4c34-a6fe-9aa5c72614f1" />
 
 ---
 
@@ -349,7 +399,7 @@ endmodule
 
 ### **Source Code:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module HalfSubtractor(
     input A,B,
@@ -362,7 +412,7 @@ endmodule
 
 ### **TestBench:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module HalfSubtractor_tb();
 reg A,B;
@@ -379,6 +429,13 @@ $finish;
 end
 endmodule
 ```
+#### **Schematic Diagram:**
+
+<img width="940" height="535" alt="image" src="https://github.com/user-attachments/assets/85a10537-e515-47f6-812b-f85366ff5e12" />
+
+#### **Waveform:**
+
+<img width="940" height="498" alt="image" src="https://github.com/user-attachments/assets/9b878fdd-2e23-4a77-a4ff-d18750c1a6ed" />
 
 ---
 
@@ -386,7 +443,7 @@ endmodule
 
 ### **Source Code:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module FullSubtractor(
     input A,B,Bin,
@@ -399,7 +456,7 @@ endmodule
 
 ### **TestBench:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module FullSubtractor_tb();
 reg A,B,Bin;
@@ -420,6 +477,13 @@ $finish;
 end
 endmodule
 ```
+#### **Schematic Diagram:**
+
+<img width="940" height="439" alt="image" src="https://github.com/user-attachments/assets/867aa3a7-7a6b-49cd-b2d0-69853a0735ea" />
+
+#### **Waveform:**
+
+<img width="940" height="499" alt="image" src="https://github.com/user-attachments/assets/00ce6b4e-e59b-4814-9af9-b4b6a990bc3a" />
 
 ---
 
@@ -427,7 +491,7 @@ endmodule
 
 ### **Source Code:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module Universal_adder_subtractor(
     input a0,a1,a2,a3,b0,b1,b2,b3,m,
@@ -448,7 +512,7 @@ endmodule
 
 ### **TestBench:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module Universal_adder_subtractor_tb();
 reg a0,a1,a2,a3;
@@ -472,6 +536,13 @@ $finish;
 end
 endmodule
 ```
+#### **Schematic Diagram:**
+
+<img width="940" height="482" alt="image" src="https://github.com/user-attachments/assets/d0efbee8-f10b-4f79-885d-c0c973e1f320" />
+
+#### **Waveform:**
+
+<img width="940" height="493" alt="image" src="https://github.com/user-attachments/assets/6e8d3418-52ae-4259-b9cf-23780580c990" />
 
 ---
 
@@ -479,7 +550,7 @@ endmodule
 
 ### **Source Code:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module SR_latch(
     input S,R,
@@ -492,7 +563,7 @@ endmodule
 
 ### **TestBench:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module SR_latch_tb();
 reg S,R;
@@ -510,6 +581,13 @@ $finish;
 end
 endmodule
 ```
+#### **Schematic Diagram:**
+
+<img width="940" height="519" alt="image" src="https://github.com/user-attachments/assets/f8b3392c-da4f-424e-a6e7-5e9b0326850b" />
+
+#### **Waveform:**
+
+<img width="940" height="515" alt="image" src="https://github.com/user-attachments/assets/1a8efdc7-d796-4c04-a889-c4a066f5fdb0" />
 
 ---
 
@@ -517,7 +595,7 @@ endmodule
 
 ### **Source Code:**
 
-````verilog
+```text
 `timescale 1ns / 1ps
 module SR_FlipFlop(
     input S,R,clk,
@@ -548,7 +626,7 @@ endmodule
 
 #### **Test Bench Code:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 
 module SR_FlipFlop_tb();
@@ -584,11 +662,11 @@ endmodule
 
 #### **Schematic Diagram:**
 
-(Insert diagram here)
+<img width="940" height="505" alt="image" src="https://github.com/user-attachments/assets/de64f43c-8f4d-49f1-b884-0ba59545c0c8" />
 
 #### **Waveform:**
 
-(Insert waveform here)
+<img width="940" height="497" alt="image" src="https://github.com/user-attachments/assets/f7d6e768-05ec-44fc-b191-f088ed449058" />
 
 ---
 
@@ -596,7 +674,7 @@ endmodule
 
 #### **Source Code:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 
 module Jk_FF(
@@ -618,7 +696,7 @@ endmodule
 
 #### **Test Bench Code:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module Jk_FF_tb();
 
@@ -652,21 +730,20 @@ endmodule
 
 #### **Schematic Diagram:**
 
-(Insert diagram here)
+<img width="940" height="593" alt="image" src="https://github.com/user-attachments/assets/f35ca3ef-06d6-4345-9812-863eb3ddea11" />
 
 #### **Waveform:**
 
-(Insert waveform here)
+<img width="940" height="290" alt="image" src="https://github.com/user-attachments/assets/ac006b73-efc8-4789-a82c-b552539f4e28" />
 
 ---
 
-## 11. D & T Flip-Flops
 
 ### 11(a). D Flip-Flop
 
 #### **Source Code:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module d_flip_flop(
 input  D, CLK, 
@@ -682,7 +759,7 @@ endmodule
 
 #### **Test Bench Code:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module d_flip_flop_test();
 
@@ -706,11 +783,11 @@ endmodule
 
 #### **Schematic Diagram:**
 
-(Insert diagram here)
+<img width="940" height="278" alt="image" src="https://github.com/user-attachments/assets/ebf9ca7c-7381-4572-98f7-cb4df9017c2d" />
 
 #### **Waveform:**
 
-(Insert waveform here)
+<img width="940" height="287" alt="image" src="https://github.com/user-attachments/assets/af9fc749-add0-41d0-b271-cfe37765076d" />
 
 ---
 
@@ -718,7 +795,7 @@ endmodule
 
 #### **Source Code:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module t_flip_flop(
 input  t, clk, 
@@ -739,7 +816,7 @@ endmodule
 
 #### **Test Bench Code:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module t_flip_flop_test();
 
@@ -765,11 +842,11 @@ endmodule
 
 #### **Schematic Diagram:**
 
-(Insert diagram here)
+<img width="940" height="379" alt="image" src="https://github.com/user-attachments/assets/45dc80c3-dd96-43ec-8033-53d0fb1cc3d3" />
 
 #### **Waveform:**
 
-(Insert waveform here)
+<img width="940" height="250" alt="image" src="https://github.com/user-attachments/assets/f1154ddf-9c7e-4045-9a69-a26705ca2016" />
 
 ---
 
@@ -777,7 +854,7 @@ endmodule
 
 ### **Source Code:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module t_ff(
 input t,
@@ -809,7 +886,7 @@ endmodule
 
 ### **Test Bench Code:**
 
-```verilog
+```text
 `timescale 1ns / 1ps
 module tb_counter();
     
@@ -835,8 +912,9 @@ endmodule
 
 #### **Schematic Diagram:**
 
-(Insert diagram here)
+<img width="1062" height="553" alt="image" src="https://github.com/user-attachments/assets/2e8e8ccd-a197-4f1f-b4ba-768a60a4f14f" />
+
 
 #### **Waveform:**
+<img width="1608" height="826" alt="image" src="https://github.com/user-attachments/assets/18392ce0-f3ce-4594-8158-1fa98597be60" />
 
-(Insert waveform here)
